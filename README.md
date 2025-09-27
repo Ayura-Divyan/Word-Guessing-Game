@@ -24,4 +24,4 @@ You’ll guess letters one at a time until you find the word (or run out of trie
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/word-guessing-game.git
-   cd word-guessing-game
+   cd Word-Guessing-Game
