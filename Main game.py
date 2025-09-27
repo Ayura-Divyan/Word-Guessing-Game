@@ -1,6 +1,7 @@
 # This imports the random module to facilitate random selection from a list.
 import random
-
+# Variables
+guess = []
 # This defines a list of words that can be used in the game.
 word_bank = ['ruby', 'sapphire', 'platinum', 'heartgold', 'soulsilver', 'emerald', 'diamond']
 
@@ -13,6 +14,8 @@ attempts = 10
 
 print("What is the word?")
 
+
+# Main game loop
 while attempts > 0 and '_' in guess:
     print(f"Guess word: {' '.join(guess)}")
     
